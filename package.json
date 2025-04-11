@@ -1,0 +1,11 @@
+{
+  "name": "frontend-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://gitlab.com/Robin.Ky/frontend-template.git",
+  "author": "Robin Kim <robin.kim@blue-dot.io>",
+  "license": "MIT",
+  "scripts": {
+    "basic-nextjs": "bash scripts/create-basic-nextjs.sh"
+  }
+}

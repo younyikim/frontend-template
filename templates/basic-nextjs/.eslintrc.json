@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    "tailwindcss"
+  ],
+  "extends": [
+    "next/core-web-vitals",
+    "next/typescript",
+    "plugin:@tanstack/query/recommended",
+    "plugin:storybook/recommended"
+  ],
+  "rules": {
+    "@tanstack/query/exhaustive-deps": "error",
+    "@tanstack/query/stable-query-client": "error",
+    "@tanstack/query/no-rest-destructuring": "warn",
+    "@tanstack/query/no-unstable-deps": "warn",
+    "@typescript-eslint/no-explicit-any": "off",
+    "tailwindcss/classnames-order": "off",
+    "@typescript-eslint/no-unused-vars": "warn"
+  }
+}
