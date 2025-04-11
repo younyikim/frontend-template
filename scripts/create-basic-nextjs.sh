@@ -46,6 +46,10 @@ read -p "$(tput setaf 1)Enter the GitLab repository URL (e.g., git@gitlab.com:yo
 
 # 원격 레포지토리 추가
 git remote add origin "$gitlab_repo_url"
+
+git config --local user.name "younyikim"
+git config --local user.email "rlakuku1221@gmail.com"
+
 git add .
 git commit -m "Initial commit"
 git push --set-upstream origin main
